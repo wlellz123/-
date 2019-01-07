@@ -15,14 +15,22 @@
   
   * 拉取存档
   
-    > $ git fetch orgin master  //将远程仓库的master分支下载到本地当前branch中
+    > $ git fetch --all
     
-  * ?????
+  * 强制覆盖
   
-    > $ git log -p master  ..origin/master  //比较本地的master分支和origin/master分支的差别
+    > $ git reset --hard origin/master
     
-  * ?????
+  * 重启游戏
+
+  * 打败boss
   
-    > $ git merge origin/master //进行合并
+  * 上传存档
+  
+    > $ git add user_0.dat
+      
+    > $ git commit -m 介绍
     
-  * 然后我就不知道了
+    > $  git push origin master
+  
+  
